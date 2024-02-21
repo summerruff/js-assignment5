@@ -7,9 +7,9 @@ Omit any non-jedi from the array.
 
 For example, the following array:
 [
-	'"firstName":"Padme","lastName":"Amidala","age":27,"occupation":"Senator","homePlanet":"Naboo"',
-	'"firstName":"Yoda","lastName":"null","age":900,"occupation":"Jedi","homePlanet":"null"',
-	'"firstName":"Palpatine","lastName":"null","age":86,"occupation":"Emperor","homePlanet":"Naboo"',
+	'"firstName":"Luke","lastName":"Skywalker","age":19,"occupation":"Jedi","homePlanet":"Tatooine"',
+	'"firstName":"Obi-Wan","lastName":"Kenobi","age":57,"occupation":"Jedi","homePlanet":"Stewjon"',
+	'"firstName":"Padme","lastName":"Amidala","age":27,"occupation":"Senator","homePlanet":"Naboo"'
 ]
 
 Should be turned into the following array of objects:
