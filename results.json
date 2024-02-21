@@ -1,0 +1,16 @@
+{
+	"Example": [
+		"https://www.google.com",
+		"https://www.yahoo.com",
+		"https://www.duckduckgo.com"
+	],
+	"Problem 1": [
+		"Name: William Shakespeare, Age: 52",
+		"Name: Albert Einstein, Age: 76",
+		"Name: Isaac Newton, Age: 84",
+		"Name: Marie Curie, Age: 66"
+	],
+	"Problem 2": "bla",
+	"Problem 3": "bla",
+	"Problem 4": "bla"
+}

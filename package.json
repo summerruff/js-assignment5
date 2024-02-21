@@ -1,0 +1,22 @@
+{
+  "name": "js-assignment5",
+  "version": "1.0.0",
+  "description": "Modern JavaScript - Assignment 5",
+  "main": "run-all.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RDAppel/js-assignment5.git"
+  },
+  "author": "Ryan Appel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RDAppel/js-assignment5/issues"
+  },
+  "homepage": "https://github.com/RDAppel/js-assignment5#readme",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
