@@ -12,5 +12,10 @@
 	],
 	"Problem 2": "bla",
 	"Problem 3": "bla",
-	"Problem 4": "bla"
+	"Problem 4": {
+		"firstName": "Luke",
+		"lastName": "Skywalker",
+		"occupation": "Jedi",
+		"homePlanet": "Tatooine"
+	}
 }

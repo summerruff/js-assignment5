@@ -1,8 +1,9 @@
 
 const fs = require('fs')
 
+const pass = x => x
 const { red, green, gray } = fs.existsSync('node_modules/chalk')
-	? require('chalk') : { red: x => x, green: x => x, gray: x => x }
+	? require('chalk') : { red: pass, green: pass, gray: pass }
 
 const results = require('./results.json')
 
