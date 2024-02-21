@@ -35,7 +35,7 @@ Take note of how JSON-like the strings are... this may make your job easier.
 
 
 TO TEST:
-You can run this example by running `node problems/problem-1` in your terminal,
+You can run this example by running `node problems/problem-2` in your terminal,
 or you can run all by running `node run-all`.
 */
 

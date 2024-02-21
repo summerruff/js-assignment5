@@ -19,7 +19,7 @@ Would result in:
 You can use the included `isEven` function to determine if a number is even or odd.
 
 TO TEST:
-You can run this example by running `node problems/problem-1` in your terminal,
+You can run this example by running `node problems/problem-3` in your terminal,
 or you can run all by running `node run-all`.
 */
 

@@ -20,6 +20,10 @@ Should be turned into the following object:
 	model: 'Mustang',
 	color: 'red'
 }
+
+TO TEST:
+You can run this example by running `node problems/problem-4` in your terminal,
+or you can run all by running `node run-all`.
 */
 
 const { test } = require('../tester')
