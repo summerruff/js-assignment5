@@ -25,20 +25,15 @@ Should be turned into the following object:
 const { test } = require('../tester')
 
 const items = [
-	  [ 'firstName', 'Luke'],
-	  [ 'lastName', 'Skywalker'],
-	  [ 'age', 19],
-	  [ 'occupation', 'Jedi'],
-	  [ 'homePlanet', 'Tatooine']
+	  [ 'firstName', 'Luke' ],
+	  [ 'lastName', 'Skywalker' ],
+	  [ 'age', 19 ],
+	  [ 'occupation', 'Jedi' ],
+	  [ 'homePlanet', 'Tatooine' ]
 ]
 
 // Omit the 'age' element
 
 const person = items // append your code here
-	.reduce((acc, [key, value]) => {
-		if (key === 'age') return acc
-		acc[key] = value
-		return acc
-	}, { })
 
 test("Problem 4", person)

@@ -10,8 +10,34 @@
 		"Name: Isaac Newton, Age: 84",
 		"Name: Marie Curie, Age: 66"
 	],
-	"Problem 2": "bla",
-	"Problem 3": "bla",
+	"Problem 2": [
+		{
+			"firstName": "Yoda",
+			"lastName": "null",
+			"age": 900,
+			"occupation": "Jedi",
+			"homePlanet": "null"
+		},
+		{
+			"firstName": "Qui-Gon",
+			"lastName": "Jinn",
+			"age": 60,
+			"occupation": "Jedi",
+			"homePlanet": "Coruscant"
+		},
+		{
+			"firstName": "Mace",
+			"lastName": "Windu",
+			"age": 53,
+			"occupation": "Jedi",
+			"homePlanet": "Haruun Kal"
+		}
+	],
+	"Problem 3": [
+		"5 is odd",
+		"8 is even",
+		"10 is even"
+	],
 	"Problem 4": {
 		"firstName": "Luke",
 		"lastName": "Skywalker",
