@@ -42,13 +42,14 @@ or you can run all by running `node run-all`.
 const { test } = require('../tester')
 
 const strings = [
-	'"firstName":"Padme","lastName":"Amidala","age":27,"occupation":"Senator","homePlanet":"Naboo"',
-	'"firstName":"Yoda","lastName":"null","age":900,"occupation":"Jedi","homePlanet":"null"',
-	'"firstName":"Palpatine","lastName":"null","age":86,"occupation":"Emperor","homePlanet":"Naboo"',
-	'"firstName":"Qui-Gon","lastName":"Jinn","age":60,"occupation":"Jedi","homePlanet":"Coruscant"',
-	'"firstName":"Mace","lastName":"Windu","age":53,"occupation":"Jedi","homePlanet":"Haruun Kal"'
+	'{"firstName":"Padme","lastName":"Amidala","age":27,"occupation":"Senator","homePlanet":"Naboo"}',
+	'{"firstName":"Yoda","lastName":"null","age":900,"occupation":"Jedi","homePlanet":"null"}',
+	'{"firstName":"Palpatine","lastName":"null","age":86,"occupation":"Emperor","homePlanet":"Naboo"}',
+	'{"firstName":"Qui-Gon","lastName":"Jinn","age":60,"occupation":"Jedi","homePlanet":"Coruscant"}',
+	'{"firstName":"Mace","lastName":"Windu","age":53,"occupation":"Jedi","homePlanet":"Haruun Kal"}'
 ]
 
 const jedi = strings // append your code here
-
+			.map(string => JSON.parse(string))
+			.filter(string => string.occupation === 'Jedi')
 test("Problem 2", jedi)

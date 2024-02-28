@@ -39,5 +39,11 @@ const items = [
 // Omit the 'age' element
 
 const person = items // append your code here
+			.reduce((result, currentArray) => {
+				if(currentArray[0] != 'age'){
+					result[currentArray[0]] = currentArray[1];
+				}
+				return result;
+			}, {})
 
 test("Problem 4", person)
